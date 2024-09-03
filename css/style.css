@@ -5,4 +5,10 @@
 img {
     max-width: 600px;
     max-height: auto;
+    display: block;
+    margin: 4rem 0 1rem 2rem;
+}
+
+#listUrls {
+    display: block;
 }

@@ -14,7 +14,7 @@ const {createApp} = Vue;
 createApp({
     data() {
         return {
-            text: 'ciao!',
+            text: 'Dai, prova TU!',
             src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwEMChx-e1bEjYNYnxN3_Bf6otohnPimjWTA&s'
         }
     }

@@ -13,7 +13,21 @@
     <div id="vueTry">
 
         <h1>Ciao ! Qui scriviamo con Vue! Guarda qui, dopo i due punti<span class="separator">:</span> {{ text }} </h1>
-        <img :src="src" alt="...">
+        <label for="inputUserText">Scrivi le parole che appariranno dopo i due punti rossi: </label>
+        <input id="inputUserText" type="text" v-model="text">
+        <img :src="src" alt="url non valido!">
+        <label for="urlImgUserInput">Inserisci qui l'url dell'immagine desiderata: </label>
+        <input id="urlImgUserInput" type="text" v-model="src">
+        <span id="listUrls">- Lista di url di immagini già pronti -</span>
+        <ul id='picsUrls'>
+            <li>https://draftsim.com/wp-content/uploads/2022/03/Elesh-Norn-Grand-Cenobite-Illustration-by-Igor-Kieryluk-1024x606.jpg</li>
+            <li>https://scentofagamer.wordpress.com/wp-content/uploads/2016/08/top100_distress_michaelchayes.jpg?w=584</li>
+            <li>https://media.wizards.com/images/magic/daily/ur/ur259_lavaaxe.jpg</li>
+            <li>https://tapandsac.com/wp-content/uploads/2020/11/Bitterblossom-by-Rebecca-Guay.jpg</li>
+            <li>https://draftsim.com/wp-content/uploads/2022/04/Underworld-Dreams-Illustration-by-Carl-Critchlow-1024x811.jpg</li>
+            <li>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRubNm-Fv6vPx9MCpkLV9A1Tji1et1cnqvP4A&s</li>
+            <li>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0NP2KWjfaxXhu53NtrGxshtMzHSRmqJiPww&s</li>
+        </ul>
 
     </div>
     
