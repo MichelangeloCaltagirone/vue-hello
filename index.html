@@ -10,8 +10,13 @@
     <!-- Vue -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-    <h1 id="vueTry">Ciao ! Qui scriviamo con Vue! Guarda qui, dopo i due punti<span class="separator">:</span> {{ text }}</h1>
-    <img src= {{ src }} alt="...">
+    <div id="vueTry">
+
+        <h1>Ciao ! Qui scriviamo con Vue! Guarda qui, dopo i due punti<span class="separator">:</span> {{ text }} </h1>
+        <img :src="src" alt="...">
+
+    </div>
+    
 
 
 
